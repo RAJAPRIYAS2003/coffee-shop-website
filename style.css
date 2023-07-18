@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color:white;
+    width: 100%;
+    position:fixed;
+}
+.navbar .logo{
+    width: 60px;
+    height: 60px;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 0px 17px;
+    font-size: 22px;
+    color: rgb(133, 125, 125);
+}
+.navbar ul .home a{
+    color: black;
+}
+.masthead{
+    background-image:url(images/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    padding:18rem 90px;
+    background-attachment: scroll;
+}
+.content{
+    width:40%;
+}
+.content h1{
+    font-size: 55px;
+    text-align: center;
+}
+.content p{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 35px;
+    color: rgb(61, 60, 60);
+    font-weight:100;
+}
+.btn{
+    margin-left: 250px;
+    margin-top: 30px;
+    padding: 20px 40px;
+    border-radius: 9px;
+    border: none;
+    background-color:#007bff;
+}
+.btn a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+}
+.container{
+    margin: 0px 150px;
+}
+.row{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap: 40px;
+}
+.content2{
+    background-color:#17a2b8!important;
+    height: 500px;
+    padding: 100px 50px;
+    margin-top: 4px;
+    border-radius: 6px;
+}
+.content2 h1{
+    font-size:3.5rem;
+    font-weight: 500;
+}
+.content2 p{
+    padding-top: 20px;
+    font-size: 1.60rem;
+    line-height: 40px;
+    font-weight: 300;
+}
+.btn1{
+    margin-top: 30px;
+    padding: 20px 40px;
+    border-radius: 9px;
+    border: none;
+    background-color:#007bff; 
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.facility{
+    margin: 0px 150px;
+    display: flex;
+}
+.logo1 img{
+    width: 500px;
+}
+.facility h3{
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.varieties{
+    padding-top: 30px;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 60px;
+}
+.varieties img{
+    width: 150px;
+}
+.varieties h4{
+    padding-top: 20px;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.varieties p{
+    padding-top: 15px;
+    font-size: 1.3rem;
+    line-height: 35px;
+}
+.container2{
+    margin: 0 150px;
+    
+}
+.logo2 img{
+    padding-top: 30px;
+    width: 500px;
+}
+.container2 h3{
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.container2 .types{
+    padding-top: 50px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 70px;
+}
+.types{
+    vertical-align: middle;
+}
+.types img{
+    width: 400px;
+}
+.types h4{
+    font-size:1.9rem;
+   padding-left: 30px;
+   font-weight: 500;
+   font-family: inherit;
+}
+.container3{
+    margin: 0 150px;
+}
+.logo3 img{
+    padding-top: 50px;
+    width: 500px;
+}
+.logo3 h3{
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.gallery1{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-column-gap:40px;
+}
+.gallery1 img{
+    width: 480px;
+}
+.container4{
+    margin: 0 150px;
+}
+.logo4 img{
+    padding-top: 50px;
+    width: 500px;
+}
+.logo4 h3{
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.ourteam1{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-row-gap:10px;
+    grid-column-gap: 40px;
+    padding-top: 30px;
+}
+.ourteam1 h4{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.ourteam1 img{
+    width: 480px;
+}
+.container5{
+    margin: 0 150px;
+}
+.container5 .logo5 img{
+    padding-top: 50px;
+    width: 500px;
+}
+.logo5 h3{
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.contactus{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.form{
+    border: 3px solid black;
+    height: 500px;
+    padding-top: 30px;
+}
+.form h4{
+    font-size: 30px;
+}
+.form input{
+    margin-top: 20px;
+    margin-left: 110px;
+    display: flex;
+    padding:15px 100px;
+    border: 3px solid black;
+    font-size: 25px;
+    text-align:left;
+}
+.btn2{
+    margin: 0 300px;
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: none;
+    background-color:#CC9966;
+    
+}
+.btn2 a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+.email{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 35px;
+    border-bottom: 2.8px solid black;
+}
+.email i{
+    color:aquamarine;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+.email i{
+    background-color: black;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+}
+.icon h4{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.icon h5{
+    font-size: 23px;
+    padding-top: 20px;
+    line-height: 10px;
+    font-weight: 500;
+}
+.container5 p{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+}
+span{
+    color: red;
+}
+
